@@ -5,16 +5,12 @@ const imagesArray = ["./resource/images/josh-hild-ttuS-GeWEao-unsplash.jpg","./r
 
 let randomImage = Math.floor(Math.random()* 2)
 
-    setTimeout(() => {
-        image.src = imagesArray[1];
-    },'1000');
-    setTimeout(() => {
-        image.src = imagesArray[2];
-    },'5000');
-    setTimeout(() => {
-        image.src = imagesArray[0];
-    },'9000');
+image.addEventListener('click',(e) => {
+    let imageSrc = e.target.src = imagesArray[randomImage]
+    image.value = imageSrc;
+})
+    
+   
     
 
 
-console.log(image);
