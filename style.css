@@ -1,0 +1,62 @@
+html {
+    position:relative;
+}
+
+body {
+    position:absolute;
+    left: 250px;
+    right:250px;
+    text-align: center;
+    background-color: bisque;
+
+}
+
+h1 {
+    padding-left:22px;
+    margin-top:10px;
+}
+
+
+
+li.li-nav {
+     display:inline-block;
+     margin-right:30px;
+     font-weight:bold;
+     font-size:20px;
+}
+
+li {
+    list-style: none;
+
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+    
+
+
+#section-one  {
+    display:flex;
+    justify-content: center;
+    
+    
+    
+}
+ #about_me {
+    width: 50%;
+    margin:30px;
+}
+#homePageImage {
+    width: 50%;
+    margin-top:50px;
+    
+    
+
+}
+img {
+ width: 100%;
+}
