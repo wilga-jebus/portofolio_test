@@ -1,0 +1,36 @@
+html {
+    position:relative;
+}
+
+body {
+    position:absolute;
+    left: 250px;
+    right:250px;
+    text-align: center;
+    background-color: bisque;
+
+}
+
+
+
+#section-one  {
+    display:flex;
+    justify-content: center;
+    
+    
+    
+}
+ #about_me {
+    width: 50%;
+    margin:30px;
+}
+#homePageImage {
+    width: 50%;
+    margin-top:50px;
+    
+    
+
+}
+img {
+ width: 100%;
+}
