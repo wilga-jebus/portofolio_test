@@ -6,7 +6,7 @@ const arrayOfImages = ['https://images.unsplash.com/photo-1505533321630-975218a5
 function clickHandler(e) {
     e.target.src = arrayOfImages[0];
     setTimeout(()=> {
-      e.target.style.width = '300px';
+      e.target.style.width = '450px';
       e.target.style.height = '300px';
       e.target.src = arrayOfImages[1];
     },1000);
