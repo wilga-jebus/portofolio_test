@@ -11,7 +11,7 @@ if(navAbout){
     navAbout.innerHTML=
     `<header>
 <div class="nav">
-    <h1 class="name">Marie Poirot</h1>
+    <h1 class="name">Name</h1>
     <nav class="nav-elt">
         <ul class="header-ul">
             <li class="li-nav"><a href='#'>AboutMe</a></li>
